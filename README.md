@@ -15,7 +15,7 @@ Download 'Cryptomator-X.X.X-x64.msi' and install it.
 
   https://cryptomator.org/downloads/win/thanks/
 
-Here is batch script for downloading and installing Resilio Sync.
+Here is batch script for downloading and installing Cryptomator.
 
 ```bat
 C:
@@ -29,6 +29,30 @@ PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.Downl
 Cryptomator-1.6.5-x64.msi /passive
 ```
 
+
+### Install Dokany driver
 NOTE: Cryptomator recommeds to download and install driver [Dokany](https://github.com/dokan-dev/dokany/releases)
+
+  https://dokan-dev.github.io/
+
+  https://github.com/dokan-dev/dokany/releases
+
+  https://github.com/dokan-dev/dokany/releases/download/v2.0.3.2000/DokanSetup.exe
+
+
+Quick version:
+Download 'DokanSetup.exe' and install it.
+
+Here is batch script for downloading and installing Dokan.
+
+```bat
+C:
+
+cd "%HOMEDRIVE%%HOMEPATH%\Downloads"
+
+PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/dokan-dev/dokany/releases/download/v2.0.3.2000/DokanSetup.exe','.\DokanSetup-2.0.3.2000.exe')}"
+
+DokanSetup-2.0.3.2000.exe
+```
 
 
