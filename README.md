@@ -61,4 +61,10 @@ PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.Downl
 DokanSetup-1.5.1.1000.exe /passive
 ```
 
+Make sure Dokany is selected as the volume type for Cryptomator.
+
+![Select volume type Dokany](Select-volume-type.png)
+
+
+
 
