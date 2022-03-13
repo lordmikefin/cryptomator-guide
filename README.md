@@ -69,4 +69,20 @@ Make sure Dokany is selected as the volume type for Cryptomator.
 
 
 
+## Get Cryptomator test vault
+
+Directory 'cryptomator-storage' in my Resilio Sync share is for testing purposes.
+Install Resilio Sync by using my [guide](https://github.com/lordmikefin/resilio-sync-guide).
+And sync 'c:\resilio-sync-test' directory by using my [read only key](https://github.com/lordmikefin/resilio-sync-guide/blob/main/sync/with-key.md).
+
+## Open the test vault
+
+ * Add vault
+ * Open Existing Vault
+ * Choose... -> C:\resilio-sync-test\cryptomator-storage\vault
+ * Unlock now
+ * Get password form my keepass database. Install keepass using my [guide](https://github.com/lordmikefin/keepass-guide)
+ * Reveal Drive
+
+
 
