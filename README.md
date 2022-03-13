@@ -42,6 +42,8 @@ NOTE: Cryptomator recommeds to download and install driver [Dokany](https://gith
 
 NOTE: Dokany version 2 is not yet supported by Cryptomator. So download version 1.
 
+Read more about [Cryptomator issue](https://github.com/cryptomator/cryptomator/issues/2001)
+
 Quick version:
 Download 'DokanSetup.exe' and install it.
 
