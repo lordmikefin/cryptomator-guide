@@ -52,7 +52,9 @@ cd "%HOMEDRIVE%%HOMEPATH%\Downloads"
 
 PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/dokan-dev/dokany/releases/download/v2.0.3.2000/DokanSetup.exe','.\DokanSetup-2.0.3.2000.exe')}"
 
-DokanSetup-2.0.3.2000.exe
+:: DokanSetup-2.0.3.2000.exe
+:: DokanSetup-2.0.3.2000.exe /?
+DokanSetup-2.0.3.2000.exe /passive
 ```
 
 
