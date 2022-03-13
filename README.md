@@ -24,6 +24,11 @@ cd "%HOMEDRIVE%%HOMEPATH%\Downloads"
 
 PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/cryptomator/cryptomator/releases/download/1.6.5/Cryptomator-1.6.5-x64.msi','.\Cryptomator-1.6.5-x64.msi')}"
 
-Cryptomator-1.6.5-x64.msi
+:: Cryptomator-1.6.5-x64.msi
+:: Cryptomator-1.6.5-x64.msi /?
+Cryptomator-1.6.5-x64.msi /passive
 ```
+
+NOTE: Cryptomator recommeds to download and install driver [Dokany](https://github.com/dokan-dev/dokany/releases)
+
 
