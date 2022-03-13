@@ -37,8 +37,10 @@ NOTE: Cryptomator recommeds to download and install driver [Dokany](https://gith
 
   https://github.com/dokan-dev/dokany/releases
 
-  https://github.com/dokan-dev/dokany/releases/download/v2.0.3.2000/DokanSetup.exe
+  https://github.com/dokan-dev/dokany/releases/download/v1.5.1.1000/DokanSetup.exe
 
+
+NOTE: Dokany version 2 is not yet supported by Cryptomator. So download version 1.
 
 Quick version:
 Download 'DokanSetup.exe' and install it.
@@ -50,11 +52,13 @@ C:
 
 cd "%HOMEDRIVE%%HOMEPATH%\Downloads"
 
-PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/dokan-dev/dokany/releases/download/v2.0.3.2000/DokanSetup.exe','.\DokanSetup-2.0.3.2000.exe')}"
+:: PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/dokan-dev/dokany/releases/download/v2.0.3.2000/DokanSetup.exe','.\DokanSetup-2.0.3.2000.exe')}"
+PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/dokan-dev/dokany/releases/download/v1.5.1.1000/DokanSetup.exe','.\DokanSetup-1.5.1.1000.exe')}"
 
 :: DokanSetup-2.0.3.2000.exe
 :: DokanSetup-2.0.3.2000.exe /?
-DokanSetup-2.0.3.2000.exe /passive
+:: DokanSetup-2.0.3.2000.exe /passive
+DokanSetup-1.5.1.1000.exe /passive
 ```
 
 
