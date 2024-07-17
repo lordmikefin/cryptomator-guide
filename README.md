@@ -29,6 +29,7 @@ PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.Downl
 Cryptomator-1.13.0-x64.msi /passive
 ```
 
+<!---
 
 ### Install Dokany driver
 NOTE: Cryptomator recommeds to download and install driver [Dokany](https://github.com/dokan-dev/dokany/releases)
@@ -67,6 +68,7 @@ Make sure Dokany is selected as the volume type for Cryptomator.
 
 ![Select volume type Dokany](Select-volume-type.png)
 
+--->
 
 
 ## Get Cryptomator test vault
