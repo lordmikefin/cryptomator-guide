@@ -22,11 +22,11 @@ C:
 
 cd "%HOMEDRIVE%%HOMEPATH%\Downloads"
 
-PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/cryptomator/cryptomator/releases/download/1.6.5/Cryptomator-1.6.5-x64.msi','.\Cryptomator-1.6.5-x64.msi')}"
+PowerShell -Command "& {$client = new-object System.Net.WebClient; $client.DownloadFile('https://github.com/cryptomator/cryptomator/releases/download/1.13.0/Cryptomator-1.13.0-x64.msi','.\Cryptomator-1.13.0-x64.msi')}"
 
-:: Cryptomator-1.6.5-x64.msi
-:: Cryptomator-1.6.5-x64.msi /?
-Cryptomator-1.6.5-x64.msi /passive
+:: Cryptomator-1.13.0-x64.msi
+:: Cryptomator-1.13.0-x64.msi /?
+Cryptomator-1.13.0-x64.msi /passive
 ```
 
 
